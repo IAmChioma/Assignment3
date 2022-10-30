@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayoutid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:stretchColumns="1">
+
+        <TableRow>
+
+                <EditText
+                    android:id="@+id/version"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:autofillHints=""
+                    android:hint="@string/enter_version"
+                    android:inputType="text"
+                    android:textColorHint="#78909C"
+                    android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:hint="@string/enter_code_name"
+                    android:inputType="text"
+                    android:textColorHint="#78909C"
+                    android:textSize="20sp"
+                    android:autofillHints="" />
+        </TableRow>
+
+        <TableRow>
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:onClick="click"
+                    android:text="@string/add"
+                    android:textColor="@color/black"
+                    app:backgroundTint="@color/offwhite" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="5dp"
+            android:background="@color/pink"
+            android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/version_name"
+                    android:layout_width="157dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/android_version"
+                    android:textColor="@color/black"
+                    tools:ignore="TextContrastCheck" />
+
+                <TextView
+                    android:id="@+id/code_name"
+                    android:layout_width="237dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/android_code_name"
+                    android:textColor="@color/black"
+                    android:visibility="visible"
+                    tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="5dp"
+            android:background="@color/pink"
+            android:baselineAligned="true"
+            android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/android9.0"
+                    android:layout_width="157dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/android9.0"
+                    android:textColor="@color/black"
+                    tools:ignore="TextContrastCheck" />
+
+                <TextView
+                    android:id="@+id/pie"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pie"
+                    android:textColor="@color/black"
+                    android:visibility="visible"
+                    tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="5dp"
+            android:background="@color/pink"
+            android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/android8.0"
+                    android:layout_width="157dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/android8.0"
+                    android:textColor="@color/black"
+                    tools:ignore="TextContrastCheck" />
+
+                <TextView
+                    android:id="@+id/oreo"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oreo"
+                    android:textColor="@color/black"
+                    android:visibility="visible"
+                    tools:ignore="TextContrastCheck" />
+        </TableRow>
+
+</TableLayout>

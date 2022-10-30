@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TableLayoutText</string>
+    <string name="enter_version">Enter Android Version</string>
+    <string name="enter_code_name">Enter Android Code name</string>
+    <string name="android_version">Version</string>
+    <string name="android_code_name">Code name</string>
+    <string name="android9.0">Android 9.0</string>
+    <string name="pie">Pie</string>
+    <string name="android8.0">Android 8.0</string>
+    <string name="oreo">Oreo</string>
+    <string name="add">ADD</string>
+</resources>
